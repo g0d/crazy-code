@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="main.js"></script>
+		<title>Address Book - DEMO</title>
+	</head>
+	<body>
+		<div id="ab_frame">
+			<div id="ab_title">[AB] Address Book - DEMO</div>
+			<div id="ab_app">
+				<div id="upper">
+					<div id="controls_side">
+						<label for="first_name"><span class="required">* </span>First name:</label>
+						<input id="first_name" type="text" value="" placeholder="e.g: John"><br>
+
+						<label for="last_name"><span class="required">* </span>Last name:</label>
+						<input id="last_name" type="text" value="" placeholder="e.g: Smith"><br>
+
+						<label for="email"><span class="required">* </span>Email:</label>
+						<input id="email" type="text" value="" placeholder="e.g: myemail@provider.com"><br>
+
+						<label for="address">Address:</label>
+						<input id="address" type="text" value="" placeholder="e.g: 30 Fort Str."><br>
+
+						<label for="city">City:</label>
+						<input id="city" type="text" value="" placeholder="e.g: Marbella"><br>
+
+						<label for="zip">Zip Code:</label>
+						<input id="zip" type="text" value="" placeholder="e.g: 11526"><br>
+
+						<label for="country">Country:</label>
+						<input id="country" type="text" value="" placeholder="e.g: Spain"><br>
+					</div>
+					<div id="contacts_side">
+						<div id="label_records">Records</div>
+						<ul id="records"></ul>
+					</div>
+				</div>
+				<div id="lower">
+					<hr>
+					<div id="buttons">
+						<button id="button_deselect" type="button">Deselect all</button>
+						<button id="button_add" type="button">Add new record</button>
+						<button id="button_save" type="button" disabled>Save record</button>
+						<button id="button_delete" type="button" disabled>Delete record</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

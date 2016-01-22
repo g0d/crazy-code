@@ -1,0 +1,193 @@
+/*
+	Address Book - DEMO
+	File: main.css
+	Description: This is the app's main css file
+	Author: George Delaportas
+	Copyright (C) 2016
+*/
+
+body
+{
+	font-family: Verdana;
+	font-size: 13px;
+	margin: 10px;
+	padding: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="text"]
+{
+	margin-bottom: 10px;
+	padding: 5px;
+	border: gray solid 1px;
+	border-radius: 4px;
+}
+
+label
+{
+	color: #D6D6D6;
+}
+
+button
+{
+	padding: 5px;
+	min-width: 70px;
+	cursor: pointer;
+}
+
+ul li
+{
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 16px;
+	white-space: nowrap;
+	padding: 4px;
+    background-color: #52ABDC;
+    margin-bottom: 4px;
+ 	-moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    transition: background .5s ease-out;
+}
+
+ul li:hover
+{
+ 	-moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+	transition: background .3s ease-in;
+	background-color: #5BE8C6;
+}
+
+.error
+{
+	color: red;
+	background-color: whitesmoke;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.validation_error
+{
+	color: white;
+	background-color: #5F2626;
+}
+
+.clicked
+{
+	background-color: #5BE8C6;
+}
+
+.required
+{
+	color: yellow;
+}
+
+#ab_frame
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: auto;
+    background-color: #17352D;
+    overflow: auto;
+}
+
+#ab_title
+{
+	text-transform: uppercase;
+	background-color: #22B763;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#ab_app
+{
+	width: auto;
+	height: auto;
+	padding: 20px;
+	overflow: auto;
+}
+
+#controls_side
+{
+	float: left;
+	clear: left;
+	width: 280px;
+	text-align: right;
+}
+
+#contacts_side
+{
+    float: left;
+    clear: right;
+    width: 210px;
+    height: 248px;
+    margin-left: 20px;
+    background-color: #444444;
+}
+
+#records
+{
+	width: 200px;
+    height: 238px;
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: auto;
+}
+
+#upper
+{
+	clear: both;
+}
+
+#lower
+{
+	clear: both;
+}
+
+#buttons
+{
+	margin-left: 0px;
+}
+
+#button_add
+{
+    width: 176px;
+    margin-left: 12px;
+}
+
+#button_save
+{
+	width: 100px;
+	margin-left: 15px;
+}
+
+#button_delete
+{
+	width: 100px;
+	margin-left: 5px;
+}
+
+#button_deselect
+{
+	visibility: hidden;
+}
+
+#label_records
+{
+	color: white;
+	background-color: firebrick;
+	padding: 5px;
+	text-align: center;
+}
+
+/* - - - - - */
