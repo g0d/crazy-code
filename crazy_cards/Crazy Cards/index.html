@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+        <script src="main.js"></script>
+        <title>Crazy Cards :: DEMO WebApp</title>
+    </head>
+    <body>
+        <div id="cc_frame">
+            <div id="cc_title">"<i>Crazy Cards</i>" management panel (DEMO WebApp)</div>
+            <h2></h2>
+            <div id="cards"></div>
+            <br><br>
+            <h4>Please enter your annual income and current employment status in the fields below</h4>
+            <label for="annual_income">Annual Income: £</label>
+            <input type="text" id="annual_income" maxlength="6" size="10" style="margin-left: 16px;"><br>
+            <label for="employment_status">Employment Status: </label>
+            <select id="employment_status">
+                <option id="0">- Select -</option>
+                <option id="1">Employed</option>
+                <option id="2">Student</option>
+                <option id="3">Other</option>
+            </select>
+            <br>
+            <label for="total_credit" style="font-weight: bold;">Total Credit: £</label>
+            <span id="total_credit">0</span>
+            <br><br>
+            <input type="button" value="Search" onclick="fetchCards();">
+            <p id="error">
+        </div>
+    </body>
+</html>

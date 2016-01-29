@@ -1,0 +1,136 @@
+﻿/* Site.css - CSS code for the page */
+
+body
+{
+	font-family: Verdana;
+	font-size: 13px;
+    background-color: #F3F3F3;
+	margin: 10px;
+	padding: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="text"]
+{
+	margin-bottom: 5px;
+	padding: 2px;
+	border: gray solid 1px;
+	border-radius: 4px;
+}
+
+select
+{
+	margin-bottom: 5px;
+	padding: 2px;
+	border: gray solid 1px;
+	border-radius: 4px;
+}
+
+label
+{
+	color: #1079B3;
+}
+
+input[type="button"]
+{
+	padding: 5px;
+	min-width: 70px;
+}
+
+h4
+{
+    color: #405A5A;
+}
+
+.error1
+{
+	color: red;
+	background-color: whitesmoke;
+	font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+	padding: 20px;
+}
+
+.error2
+{
+	color: #9928aa;
+	background-color: whitesmoke;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.clicked
+{
+	background-color: #DFEBF5 !important;
+}
+
+.card
+{
+    padding: 4px;
+    background-color: #8BBCE7;
+    color: #3B304B;
+    margin-right: 10px;
+    min-width: 200px;
+    float: left;
+    clear: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #8BBCE7;
+}
+
+.card:hover
+{
+    border: 2px solid #27a5c2;
+}
+
+.info
+{
+    padding: 2px;
+}
+
+.title
+{
+    background-color: #A4CEE6;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+#cc_frame
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 966px;
+    height: auto;
+    background-color: #C9F2FF;
+    overflow: auto;
+    padding: 10px;
+}
+
+#cc_title
+{
+	text-transform: uppercase;
+	background-color: #3C8386;
+    text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#cards
+{
+    padding: 8px;
+    background-color: aliceblue;
+    min-height: 130px;
+}
+
+#total_credit
+{
+    font-weight: bold;
+    color: #535AA9;
+}
