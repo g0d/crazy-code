@@ -1,0 +1,63 @@
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\msvcp120.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\msvcr120.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_calib3d2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_contrib2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_core2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_features2d2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_ffmpeg2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_flann2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_gpu2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_highgui2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_imgproc2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_legacy2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_ml2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_nonfree2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_objdetect2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_ocl2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_photo2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_stitching2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_superres2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_video2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x86\opencv_videostab2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\msvcp120.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\msvcr120.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_calib3d2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_contrib2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_core2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_features2d2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_ffmpeg2410_64.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_flann2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_gpu2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_highgui2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_imgproc2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_legacy2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_ml2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_nonfree2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_objdetect2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_ocl2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_photo2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_stitching2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_superres2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_video2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\opencv_videostab2410.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\Track Me.exe.config
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\Track Me.exe
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\Track Me.pdb
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.Blob.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.CPlusPlus.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.Extensions.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\System.Net.Http.dll
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.xml
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.Blob.xml
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.CPlusPlus.xml
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\OpenCvSharp.Extensions.xml
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\bin\x86\Debug\System.Net.Http.xml
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\obj\x86\Debug\TrackMe.MainForm.resources
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\obj\x86\Debug\TrackMe.Properties.Resources.resources
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\obj\x86\Debug\Track Me.csproj.GenerateResource.Cache
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\obj\x86\Debug\Track Me.exe
+C:\Users\George\Documents\Visual Studio 2015\Projects\Track Me\Track Me\obj\x86\Debug\Track Me.pdb
