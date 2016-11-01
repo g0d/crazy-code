@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/libs/vulcan.js"></script>
+		<script type="text/javascript" src="js/libs/bull.js"></script>
+		<script type="text/javascript" src="js/libs/lava.js"></script>
+		<script type="text/javascript" src="js/control.js"></script>
+        <title>Sponso - Sponsor Dashboard</title>
+    </head>
+    <body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo"></div>
+				Welcome to your dashboard <i>HafenSport</i>
+				<br><br>
+				Please manage your sponsorships from the panel below
+			</div>
+			<div id="dashboard">
+				<div id="view_tools">
+					<div id="sort">
+						Sort by: 
+						<select id="sort_by">
+							<option value="uid">ID</option>
+							<option value="name">Name</option>
+							<option value="duration">Duration</option>
+							<option value="expenses">Expenses</option>
+						</select>
+					</div>
+					<div id="filter">
+						<input id="search" type="text" value="" placeholder="Filter by name...">
+					</div>
+				</div>
+				<div id="sponsorships">
+					<div id="spons-1" class="sponsorship">
+						<div>ID: 1</div>
+						<div>Name: Sportex Shoes</div>
+						<div>Description: Sportex shoes for the local team of Hamburg</div>
+						<div>Duration: 30 days</div>
+						<div>Expenses: 42.000 Euro</div>
+					</div>
+				</div>
+				<div id="controls">
+					<input id="new_sponsorship" type="button" value="New">
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &copy; 2016 - Sponsoo UG
+			</div>
+		</div>
+		<div id="pop_up">
+			<div id="pop_up_title">Add new sponsorship</div>
+			<input id="name" type="text" value="" placeholder="Add name...">
+			<br>
+			<input id="descr" type="text" value="" placeholder="Add description...">
+			<br>
+			<input id="duration" type="text" value="" placeholder="Add duration..."> days
+			<br>
+			<input id="expenses" type="text" value="" placeholder="Add expenses..."> Euro
+			<br>
+			<input id="add_sponsorship" type="button" value="Add">
+			<input id="close_sponsorship" type="button" value="Close">
+		</div>
+    </body>
+</html>

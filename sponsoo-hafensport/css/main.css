@@ -1,0 +1,121 @@
+body
+{
+	font: 14px Verdana;
+    cursor: default;
+	color: darkgrey;
+    margin: 10px;
+    padding: 0px;
+}
+
+#wrapper
+{
+	float: none;
+	clear: both;
+	background-color: #f7f7f7;
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#header
+{
+	color: white;
+	background-color: #2a983b;
+	text-align: center;
+	font-weight: bold;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+#logo
+{
+	float: left;
+    width: 100px;
+    height: 80px;
+	background: url('../pix/sponsoo.png') no-repeat 50% 50%;
+}
+
+#dashboard
+{
+	float: none;
+	clear: both;
+	height: auto;
+}
+
+#view_tools
+{
+	color: white;
+	background-color: #4e4e4e;
+	height: 20px;
+	padding: 4px;
+}
+
+#sort
+{
+	float: left;
+	clear: none;
+}
+
+#filter
+{
+	float: right;
+	clear: none;
+}
+
+#sponsorships
+{
+	float: none;
+	clear: both;
+	height: 332px;
+	color: #8a7da2;
+	background-color: #caf7e4;
+	margin-top: 10px;
+	overflow: scroll;
+}
+
+#controls
+{
+	float: none;
+	clear: both;
+	margin-top: 10px;
+}
+
+#footer
+{
+	margin-top: 20px;
+	text-align: right;
+}
+
+#pop_up
+{
+	visibility: hidden;
+	float: none;
+	clear: none;
+	position: fixed;
+    left: 450px;
+    top: 365px;
+    width: 210px;
+    height: 135px;
+    padding: 10px;
+    background-color: #e0e0e0;
+	z-index: 100;
+}
+
+#pop_up_title
+{
+    background-color: #6d3d3d;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.sponsorship
+{
+	font-size: 12px;
+	background-color: #272727;
+	padding: 10px;
+	margin-bottom: 10px;
+}
