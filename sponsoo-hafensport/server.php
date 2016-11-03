@@ -1,12 +1,20 @@
 <?php
-	if !empty($_POST)
+	require('sponsorship.php');
+	
+	if (!empty($_POST))
 	{
-		$test = json_decode($_POST['sponsorship']);
+		$my_sponsorship = new Sponsorship();
 		
-		if empty($test)
-			echo 0;
+		if (!empty($_POST['add']) && !empty($_POST['sponsorship']))
+		{
+			echo $my_sponsorship->addSponsoship($_POST['sponsorship']);
+		}
+		else if (!empty($_POST['list']))
+		{
+			echo $my_sponsorship->listSponsoships();
+		}
 		else
-			echo 1;
+			echo 0;
 	}
 	else
 		echo -1;

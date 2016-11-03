@@ -163,7 +163,7 @@ function bootstrap()
 			var json_data = JSON.stringify(new_sponsorship_model);
 			
 			// Send new record to the server (Asynchronous POST request)
-			my_bull.request('/server.php', 'sponsorship=' + json_data, 1, 
+			my_bull.request('/server.php', 'sponsorship=' + json_data + '&add=1', 1, 
                         function(response)
                         {
                             if (!my_vulcan.validation.misc.is_nothing(response) && response !== '0')
@@ -210,7 +210,7 @@ function bootstrap()
 	}
 	
 	// Preload test sponsorships
-	var spons_test = {
+/* 	var spons_test = {
 						uid : '1',
 						name : 'Sportex Shoes',
 						descr : 'Sportex shoes for the local team of Hamburg',
@@ -236,6 +236,7 @@ function bootstrap()
 					expenses : 7000
 				 };
 	sponsorships.push(spons_test);
+	*/
 	
 	// Attach events to tools/controls
 	var sort_by_object = my_vulcan.objects.by_id('sort_by');
@@ -253,10 +254,37 @@ function bootstrap()
 	var close_sponsorship_button_object = my_vulcan.objects.by_id('close_sponsorship');
 	my_vulcan.events.attach('close_sponsorship', close_sponsorship_button_object, 'click', close_popup);
 	
-	// Draw all available sponsorships
-	var index;
-	for (index = 0; index < sponsorships.length; index++)
-		draw_sponsoship(sponsorships[index]);
+	// Fetch all records from the server (Asynchronous POST request)
+	my_bull.request('/server.php', 'list=1', 1, 
+				function(response)
+				{
+					if (!my_vulcan.validation.misc.is_nothing(response) && response !== '0')
+					{
+						sponsorships.push(JSON.parse(JSON.stringify(response)));
+						
+						// Draw all available sponsorships
+						var index;
+						for (index = 0; index < sponsorships.length; index++)
+							draw_sponsoship(sponsorships[index]);
+						
+						console.log(sponsorships);
+						alert('Success: All sponsorships retrieved!');
+
+						return true;
+					}
+					else
+					{
+						// SERVER ERROR RESPONSE
+
+						return false;
+					}
+				}, 60000, null, 
+				function(response)
+				{
+					// CONNECTION ISSUES RESPONSE
+
+					return false;
+				});
 	
 	return true;
 }
