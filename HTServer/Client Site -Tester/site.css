@@ -1,0 +1,54 @@
+﻿/* Site.css - CSS code for the page */
+
+body
+{
+	font-family: Verdana;
+	font-size: 13px;
+    background-color: #F3F3F3;
+	margin: 10px;
+	padding: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main_div
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    height: auto;
+    background-color: #BBC9BC;
+    overflow: auto;
+    padding: 10px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th
+{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th
+{
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #efefef;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
