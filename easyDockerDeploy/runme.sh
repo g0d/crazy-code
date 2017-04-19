@@ -16,6 +16,7 @@ sudo docker build -t easy_deploy_img .
 # Get list of running instances
 list=$(sudo docker ps -aq)
 
+# If any active, clean up before new run
 if [ -n "$list" ]; then
     echo "Cleaning..."
 
